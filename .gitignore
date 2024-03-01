@@ -1,0 +1,9 @@
+# air
+cmd/tmp
+
+# credential
+cloud-storage-credential.json
+
+# env
+env/*
+!env/example

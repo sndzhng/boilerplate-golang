@@ -1,0 +1,11 @@
+services:
+  postgres:
+    container_name: gin-template-postgres
+    image: postgres
+    restart: no
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
